@@ -1,0 +1,55 @@
+K-Means is a unsupervised learning technique in which 
+	- there is predefined classes and prior information
+	- which defines how the data should be grouped or labeled into separate classes
+  - Helps to get the insights about the data distribution
+  - Can be used as a preprocessing step in other algorithms
+  
+Clustering :  model tries to find “natural” grouping of instances for a given unlabeled data.
+Classification : r model learns a method for predicting the instance class from a pre-labeled(classified) instances.
+    
+How do we define good Clustering algorithms?
+  - Intra-cluster minimization
+  - Inter-cluster maximization  
+
+Clustering algorithms are classified into two categories as:
+  1. Flat or partitioning algorithms
+	- Weakness is whenever a point is closer to the wrong cluster
+	- Result becomes poor or misleading due to overlapping of the data points.
+  2. Hierarchical algorithms
+  3. Density Based Clustering
+
+Challenges : How many clusters for this data ?
+Elbow method : Choose right number of clusters use elbow method where you keep increasing number of clusters.
+
+Pros :
+  - It’s a simple technique to understand. Even with the math behind it!
+  - Quite fast for small data-sets.
+Cons :
+  - For large data-sets and large number of features, it gets computationally expensive.
+  - If the data-set is sparse, then we may not get a good-quality clustering.
+  - At times, it’s difficult to determine the number of clusters for K-Means.
+  - It’s sensitive to outliers, so you should consider scaling your features before implementing K-Means.
+  - Since the centroids get randomly initialised, the final centroids for the clusters may vary.
+
+- K means restricted us to Euclidean distance.
+- Hierarchical clustering allows us to choose any distance metric.
+
+- Hierarchical clustering is an agglomerative approach.
+
+- Clustering analysis is not negatively affected by heteroscedasticity but the results are negatively impacted by multicollinearity of features/ variables used in clustering as the correlated feature/ variable will carry extra weight on the distance calculation than desired.
+
+- Feature scaling is an important step before applying K-Mean algorithm, reason behind this is :
+	Feature scaling ensures that all the features get same weight in the clustering analysis. Consider a scenario of clustering people based on their weights (in KG) with range 55-110 and height (in inches) with range 5.6 to 6.4. In this case, the clusters produced without scaling can be very misleading as the range of weight is much higher than that of height. Therefore, its necessary to bring them to same scale so that they have equal weightage on the clustering result.
+	
+- If the correlation between the variables V1 and V2 is 1, then all the data points will be in a straight line. Thus, all the  cluster centroids will form a straight line.	
+
+- k-means clustering is a method of vector quantization
+- k-means clustering aims to partition n observations into k clusters
+- The choice of an appropriate metric will influence the shape of the clusters
+- Hierarchical clustering is also called HCA
+- In general, the merges and splits are determined in a greedy manner
+
+- K-means clustering follows partitioning approach. It requires
+	- Defined distance metric
+	- Number of clusters
+	- Initial guess as to cluster centroids
