@@ -13,3 +13,18 @@ The results of the __K-means clustering algorithm__ are:
 2. Labels for the training data (each data point is assigned to a single cluster)
 ![image.png](https://cdn-images-1.medium.com/max/716/1*WkU1q0Cuha2QKU5JnkcZBw.gif)
 
+## 08.KNN
+__KNN__ can be used for both __classification and regression__ predictive problems. However, it is more widely used in classification problems in the industry
+
+### 08.1 KNN for Regression
+When KNN is used for regression problems the _prediction is based on the __mean or the median__ of the K-most similar instances_.<img src="https://raw.githubusercontent.com/insaid2018/Term-3/master/Images/download%20(2).png" />
+
+### 08.2 KNN for Classification
+When KNN is used for classification, the output can be calculated as the __class with the highest frequency__ from the __K-most similar instances__. Each instance in essence __votes for their class and the class with the most votes is taken as the prediction__.
+
+Class probabilities can be calculated as the normalized frequency of samples that belong to each class in the set of K most similar instances for a new data instance. For example, in a binary classification problem (class is 0 or 1):
+
+p(class=0) = count(class=0) / (count(class=0)+count(class=1))
+
+If you are using K and you have an even number of classes (e.g. 2) it is a good idea to choose a K value with an odd number to avoid a tie. And the inverse, use an even number for K when you have an odd number of classes.
+<img src="https://raw.githubusercontent.com/insaid2018/Term-3/master/Images/download%20(3).png" />
