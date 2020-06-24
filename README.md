@@ -28,3 +28,9 @@ p(class=0) = count(class=0) / (count(class=0)+count(class=1))
 
 If you are using K and you have an even number of classes (e.g. 2) it is a good idea to choose a K value with an odd number to avoid a tie. And the inverse, use an even number for K when you have an odd number of classes.
 <img src="https://raw.githubusercontent.com/insaid2018/Term-3/master/Images/download%20(3).png" />
+
+
+## 09.Naive Bayes Classifier
+
+- Collection of __classification__ algorithms based on __Bayes Theorem__.
+- Classifies given different __instances (object/data)__ into __predefined classes(groups)__, assuming there is no interdependency of features __(class conditional independence)__.
