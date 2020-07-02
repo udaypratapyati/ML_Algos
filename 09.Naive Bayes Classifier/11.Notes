@@ -1,0 +1,19 @@
+# Calculation of prob. is very important from Interview PRosepctive
+	P(x|y) = ( P(y|x) * P(x) ) / P(y)
+# Generalization Model vs Probablitic Models (interview qn.)
+	* the moment prob. of a value changes, everything is changed drastically.
+# if you have huge distributional chnages that are going to happen in data, dont use probabilistic model
+# Naive Bayes is used a lot in text Classification
+# Indenpendence of Columns work very well when it comes to text - Very well
+
+# CLass Imbalance Problems --> https://imbalanced-learn.readthedocs.io/en/stable/
+
+# How do you make your mdoels robust/stable 
+# Do Cross Validation - inner Itration 
+# Do outer Iteration of whole ML Cycle multiple time (~5-10) and check StandarDeviation of accuracy
+
+# MLOps 
+  # Feature Store 
+  # Logic Store (You will write your experiemnts and save them as modules, 
+    # such that with any data change or new data, your whole experiemtns/pipeline can run automatically)
+  # DVC, Metaflow, MlFlow, Airflow - Python
