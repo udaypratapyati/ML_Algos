@@ -35,3 +35,16 @@ If you are using K and you have an even number of classes (e.g. 2) it is a good 
 - Classifies given different __instances (object/data)__ into __predefined classes(groups)__, assuming there is no interdependency of features __(class conditional independence)__.
 <img src="https://raw.githubusercontent.com/insaid2018/Term-3/master/Images/21.png" width="700" height="600" />
 <img src="https://raw.githubusercontent.com/insaid2018/Term-3/master/Images/22.png" width="700" height="600" />
+
+## 10.PCA-Dimensionality reduction
+PCA is a method used for compressing a lot of data into something that captures the essence of the original data.
+- It reduces the dimension of your data with the aim of retaining as much information as possible.
+- Calculated efficiently with computer programs
+- This method combines highly correlated variables together to form a smaller number of an artificial set of variables.
+- These artificial set of variables are called 'principal components' that account for most variance in the data.
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=BfTMmoDFXyE
+" target="_blank"><img src="http://img.youtube.com/vi/BfTMmoDFXyE/0.jpg" 
+alt="A layman's introduction to principal component analysis" width="240" height="180" border="10" /></a>
+
+![image.png](https://raw.githubusercontent.com/insaid2018/Term-3/master/Images/Q7HIP.gif)
